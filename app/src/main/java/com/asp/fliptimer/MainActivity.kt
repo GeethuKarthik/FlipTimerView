@@ -25,7 +25,7 @@ class MainActivity : Activity() {
             }
 
             override fun countdownFinished() {
-                Toast.makeText(this@MainActivity, "Finished", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@MainActivity, "Finished... CountDownClock...Change", Toast.LENGTH_SHORT).show()
                 timerProgramCountdown.resetCountdownTimer()
                 isRunning = false
                 btnPause.isEnabled = false
